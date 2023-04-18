@@ -11,4 +11,6 @@ April 3-4: Work on wireframes
 
 April 5-16: Work on MVP and create a sep-10-freedom project repo and create a plan.md.
 
-April 17-30: Finish your website and MVP.
+April 17: Work on Architecture models using Aframe
+
+April 18: Create examples of real architecture images
