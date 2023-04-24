@@ -16,18 +16,27 @@
     </head>
     <body>
         <!-- HTML -->
+   <h1>Architecture</h1>
+   <h1>Context</h1>
+   <h1>Aframe Models</h1>
 
-        <a-scene>
-            <a-box position="-9 7 -3" width="5" depth="5" height="15" color="white"></a-box>
-            <a-box position="5 13-3" rotation="-90 0 0" width="5" depth="5" height="1" color="white"></a-box>
-            <a-box position="-9 13 -3" rotation="-90 0 0" width="5" depth="5" height="1" color="white"></a-box>
-            <a-plane position="0 0 -4" rotation="-90 0 0" width="25" height="25" depth="25" color="#808080"></a-plane>
+    <div id="myEmbeddedScene"></div>
+        <a-scene embedded>
+         <a-entity>
+            <a-box  src = "plantinum.png" position="1.2 23 -3" rotation="0 0 -65" width="25" depth="26" height="1" ></a-box>
+            <a-box src = "platinum.png" position= "-8.9 23 -3" rotation="0 0 65" width="25" depth="26" height="1" ></a-box>
+            <a-plane position="0 0 -4" rotation="-90 0 0" width="50" height="50" depth="50" color="#808080"></a-plane>
+            <a-box src = "platinum.png" position="-3.4 23 -3" rotation="0 -90 0" width="25" depth="10" height="1" ></a-box>
             <a-sky color="#00FFFF"></a-sky>
+            <a-entity id="rig" position="0 30 80">
+                <a-camera id="camera"></a-camera>
+         </a-entity>
         </a-scene>
+     </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="script.js"></script>
         <script>
-            // JS
+           // JS
 
 
         </script>
