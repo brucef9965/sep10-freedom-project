@@ -3,6 +3,11 @@ a-scene {
     width: 600px;
   }
 
-  h1 {
-    
+  img {
+    height: 300px;
+    width: 600px;
   }
+
+body {
+  background-color: lightblue!important;
+}
