@@ -1,13 +1,21 @@
 a-scene {
     height: 300px;
-    width: 600px;
+    width: 400px;
   }
 
-  img {
+  .smaller-image {
     height: 300px;
-    width: 600px;
+    width: 400px;
   }
 
 body {
-  background-color: lightblue!important;
+  background-color: darkred!important;
+}
+
+h1 {
+  color:red;
+}
+
+h5 {
+  color:red;
 }
