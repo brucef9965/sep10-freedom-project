@@ -1,11 +1,15 @@
 a-scene {
-    height: 300px;
-    width: 400px;
+    height: 200px;
+    width: 300px;
+    margin: 25px;
+    padding: 25px;
   }
 
-  .smaller-image {
+.smaller-image {
     height: 300px;
     width: 400px;
+    margin: 25px;
+    padding: 25px;
   }
 
 body {
@@ -13,9 +17,13 @@ body {
 }
 
 h1 {
-  color:white;
+  color: white;
+  margin: 25px;
+  padding: 5px;
 }
 
 h5 {
-  color:white;
+  color: white;
+  margin: 25px;
+  padding: 5px;
 }
